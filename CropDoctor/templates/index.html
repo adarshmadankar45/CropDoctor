@@ -1,0 +1,273 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CropDoctor - AI-Powered Crop Disease Detection</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Include -->
+    <div id="header"></div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h2>AI-Powered Crop Disease Detection & Solution</h2>
+                <p>Revolutionizing agriculture with artificial intelligence to help farmers detect crop diseases early and receive expert recommendations for treatment.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn">Upload Crop Image</a>
+                    <a href="#" class="btn btn-outline">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1586771107445-d3ca888129ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Farmer using CropDoctor app">
+            </div>
+        </div>
+        <div class="container hero-stats">
+            <div class="stat-item">
+                <div class="stat-number">95%</div>
+                <div class="stat-text">Accuracy Rate</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">50K+</div>
+                <div class="stat-text">Farmers Helped</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">30+</div>
+                <div class="stat-text">Crop Types</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">100+</div>
+                <div class="stat-text">Diseases Identified</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Core Features</h2>
+                <p>Everything farmers need to protect their crops and maximize yield</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Crop Image Upload</h3>
+                    <p>Easy drag & drop or camera upload via mobile for instant disease detection</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI Disease Detection</h3>
+                    <p>Advanced CNN model accurately identifies diseases from your crop images</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Severity Analysis</h3>
+                    <p>Get detailed severity level assessment (low/medium/high) for detected diseases</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-prescription-bottle"></i>
+                    </div>
+                    <h3>Suggested Remedies</h3>
+                    <p>Organic and chemical treatment options tailored to your specific crop disease</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-history"></i>
+                    </div>
+                    <h3>History Tracking</h3>
+                    <p>Keep records of past uploads and results for future reference</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Expert Consultation</h3>
+                    <p>Connect with agricultural experts for personalized advice</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-title">
+                <h2>How It Works</h2>
+                <p>Three simple steps to protect your crops</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Upload Image</h3>
+                    <p>Take a photo of your crop or upload from your gallery</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>AI Analysis</h3>
+                    <p>Our AI model analyzes the image to detect diseases</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Get Results</h3>
+                    <p>Receive detailed diagnosis, severity assessment, and treatment options</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advanced Features Section -->
+    <section class="advanced-features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Advanced Features</h2>
+                <p>Going beyond basic disease detection to support farmers comprehensively</p>
+            </div>
+            <div class="advanced-features-grid">
+                <div class="advanced-feature-card">
+                    <div class="advanced-feature-icon">
+                        <i class="fas fa-wifi-slash"></i>
+                    </div>
+                    <div class="advanced-feature-content">
+                        <h3>Offline AI Support</h3>
+                        <p>Works even with weak internet connection - model runs locally when possible</p>
+                    </div>
+                </div>
+                <div class="advanced-feature-card">
+                    <div class="advanced-feature-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <div class="advanced-feature-content">
+                        <h3>Voice Input/Output</h3>
+                        <p>Speak queries and get remedies in local language</p>
+                    </div>
+                </div>
+                <div class="advanced-feature-card">
+                    <div class="advanced-feature-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="advanced-feature-content">
+                        <h3>Multi-Language Support</h3>
+                        <p>Available in English, Hindi, Marathi and other Indian languages</p>
+                    </div>
+                </div>
+                <div class="advanced-feature-card">
+                    <div class="advanced-feature-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="advanced-feature-content">
+                        <h3>Geo-Tagging & Heatmap</h3>
+                        <p>Disease detection tagged with location to create crop disease maps</p>
+                    </div>
+                </div>
+                <div class="advanced-feature-card">
+                    <div class="advanced-feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="advanced-feature-content">
+                        <h3>AI Chatbot (AgriBot)</h3>
+                        <p>Answers farmer queries using stored knowledge base</p>
+                    </div>
+                </div>
+                <div class="advanced-feature-card">
+                    <div class="advanced-feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="advanced-feature-content">
+                        <h3>Community Forum</h3>
+                        <p>Farmers can share issues and get peer/expert advice</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Farmers Say</h2>
+                <p>Success stories from farmers who use CropDoctor regularly</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        CropDoctor saved my tomato farm from blight last season. The AI detected the disease early and the treatment suggestions worked perfectly.
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Rajesh Kumar">
+                        </div>
+                        <div class="author-details">
+                            <h4>Rajesh Kumar</h4>
+                            <p>Tomato Farmer, Maharashtra</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        The voice feature in my local language has been a game-changer. I can get advice without needing to type or read English.
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sunita Patel">
+                        </div>
+                        <div class="author-details">
+                            <h4>Sunita Patel</h4>
+                            <p>Rice Farmer, Uttar Pradesh</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        As someone with limited internet access, the offline functionality has been incredibly valuable for my remote farm.
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Vikram Singh">
+                        </div>
+                        <div class="author-details">
+                            <h4>Vikram Singh</h4>
+                            <p>Wheat Farmer, Punjab</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Start Protecting Your Crops Today</h2>
+            <p>Join thousands of farmers who are already using CropDoctor to save their crops and increase yield</p>
+            <a href="#" class="btn btn-secondary">Get Started For Free</a>
+        </div>
+    </section>
+
+
+
+    <!-- Footer Include -->
+    <div id="footer"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+{% endblock %}
