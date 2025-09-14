@@ -74,7 +74,6 @@ Screenshort:-
 <img width="1363" height="617" alt="image" src="https://github.com/user-attachments/assets/5e57d251-ef65-46f9-aaca-292725d7b03c" />
 <img width="1365" height="613" alt="image" src="https://github.com/user-attachments/assets/31900864-e9cf-4170-9e10-da5d253cccba" />
 <img width="1365" height="612" alt="image" src="https://github.com/user-attachments/assets/43ddf5fa-35fb-4f6c-979b-d505a6e27368" />
-<img width="1365" height="612" alt="image" src="https://github.com/user-attachments/assets/e5081530-01b6-483a-840b-34dc205f2415" />
 <img width="1364" height="611" alt="image" src="https://github.com/user-attachments/assets/a73ddb8d-966c-41ee-97b0-fd02e853a71d" />
 
 
